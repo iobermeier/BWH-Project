@@ -1,5 +1,5 @@
 * {
-    background-color: #87AC69;
+    background-color: #C7DDB6;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@
     color: white;
 }
 
+/*Submit button style*/
 .submit{
     
     display: inline-block;
@@ -30,7 +31,7 @@
     color: #ffffff;
     background: #A3C686;
     border-radius: 4px;
-    border-color: #006e52;
+    /*border-color: #006e52;*/
     font-weight: 500;
     font-size: 14px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
@@ -38,3 +39,38 @@
 
 }
 
+/*Style for paragraphs on info page*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid white;
+    border-radius: 25px; /* Adjust this value to control squircle shape */
+    overflow: hidden;
+    padding: 10px;
+    background-color: #87AC69;
+
+}
+
+.box{
+    color: white;
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 25px; /* Adjust this value to control squircle shape */
+    overflow: hidden;
+    background: #A3C686;
+    
+}
+
+.box + .box {
+    margin-bottom: 25px; /* Add some space between boxes */
+}
+
+.box_p{
+    background: #A3C686;
+}
