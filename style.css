@@ -1,0 +1,40 @@
+* {
+    background-color: #87AC69;
+    text-align: center;
+}
+
+/* Style for sign up title */
+.Title{
+    font-family:monospace;
+    padding-bottom: 25px;
+    color: white;
+}
+
+/* Style for the form */
+.textbox {
+    background-color: #95BB72;
+    border-color: #95BB72;
+    color: white;
+}
+
+.submit{
+    
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #ffffff;
+    background: #A3C686;
+    border-radius: 4px;
+    border-color: #006e52;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+   
+
+}
+
