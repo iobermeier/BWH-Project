@@ -5,8 +5,10 @@
 
 /* Style for sign up title */
 .Title{
-    font-family:monospace;
-    padding-bottom: 25px;
+    font-family: "Georgia";
+    padding: 5%;
+    font-weight: 200;
+    font-size: 25px;
     color: white;
 }
 
@@ -35,9 +37,21 @@
 
 /* Style for the form */
 .textbox {
-    background-color: #95BB72;
-    border-color: #95BB72;
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
     color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5%;
+    border-radius: 15px; /* Adjust this value to control squircle shape */
+    overflow: hidden;
+    background: #A3C686;
+    font-family: "Georgia", serif;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 .submit{
@@ -80,7 +94,7 @@
     background-color: #87AC69;
 }
 .box2{
-    color: white;
+    color: black;
     width: 500px;
     height: auto;
     border: 1px solid white;
@@ -96,7 +110,6 @@
     font-family: "Georgia", serif;
     font-weight: 100;
     font-size: 20px;
-    color: white;
 }
 
 .box2:hover {
