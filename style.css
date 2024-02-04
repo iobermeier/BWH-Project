@@ -170,17 +170,24 @@
     width: 100%;
     margin: 20px auto;
     padding: 20px;
+
+    border: 1px solid white;
+    border-radius: 25px; /* Adjust this value to control squircle shape */
+    overflow: hidden;
+    background-color: #87AC69;
 }
 
 .material {
     width: calc(33.33% - 10px);
     margin-bottom: 20px;
     text-align: center;
+    background-color: #87AC69;
 }
 
 .material img {
     width: 100px;
     height: 100px;
     cursor: pointer;
+    background-color: #87AC69;
 }
 
