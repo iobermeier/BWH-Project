@@ -128,3 +128,27 @@
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
+
+/*Style for input page*/
+.container_input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.material {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.material img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
