@@ -45,6 +45,22 @@
     background-color: #87AC69;
 }
 
+.box {
+    width: 50%;
+    height: 25%;
+    padding: 5%;
+    margin: 10px;
+    background-color: #95BB72;
+    border-color: #95BB72;
+    color: white;
+    box-shadow: -10px -8px 0px white;
+}
+
+.box:hover {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
 
 .responsive-image{
     width: 50%;
