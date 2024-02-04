@@ -32,7 +32,7 @@
     border-color: #006e52;
     font-weight: 500;
     font-size: 14px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
 /*
     border: 1px solid transparent;
     padding: 17px 48px;
@@ -52,10 +52,6 @@
     transition-duration: .3s;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
 */
-}
-
-.submit-container{
-    background-color: none;
 }
 
 .submit:hover{
@@ -87,7 +83,6 @@
     border-radius: 25px; /* Adjust this value to control squircle shape */
     overflow: hidden;
     background: #A3C686;
-    
 }
 
 .box + .box {
@@ -98,7 +93,6 @@
     background: #A3C686;
 }
 
-
 .box:hover {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
@@ -106,6 +100,10 @@
   }
 
 .responsive-image{
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 20%;
     width: 50%;
     height: 50%;
 }
